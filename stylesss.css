@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #2b2d42;
+}
+
+header {
+    background-image: 
+    url("prueba2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover; /* Hace que la imagen cubra todo el área del header */
+    background-position: center; /* Centra la imagen dentro del header */
+    width: 100%;
+    height: 45vh;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    display: flex; /* Activa Flexbox */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    position:absolute
+    padding: 10px;
+}
+
+.header-buttons {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.language-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.language-button:hover {
+    background-color: #0056b3;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 4.5em;
+}
+
+.cuadro {
+    border: 2px solid #636799; /* Color del borde */
+    padding: 15px; /* Espacio interior */
+    margin: 10px 0; /* Espacio exterior */
+    border-radius: 8px; /* Bordes redondeados */
+    background-color: #636799; /* Color de fondo opcional */
+    color: #ffffff;
+}
+
+h2, h3 {
+    margin-top: 0; /* Elimina el margen superior para un mejor ajuste */
+}
+
+header .subtitulo {
+    font-size: 1.5em;
+    margin: 10px 0 0;
+}
+
+.header-menu {
+    position: absolute; /* Posiciona el menú de forma absoluta */
+    top: 10px; /* Espacio desde la parte superior */
+    right: 20px; /* Espacio desde la parte derecha */
+    font-size:17px ;
+}
+
+.navbar {
+    list-style: none; /* Sin estilo de lista */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Flexbox para alinear los elementos */
+    gap: 15px; /* Espacio entre los elementos */
+}
+
+.navbar {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    position:absolute
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.navbar li {
+    margin: 0;
+}
+
+.navbar li a {
+    color: rgba(255, 255, 255, 0.845);
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+    text-align: center;
+    font-size: 1em;
+}
+
+.navbar li a:hover {
+    background-color: #222222; /* Tono gris más oscuro al pasar el cursor */
+}
+
+section {
+    padding: 20px;
+    margin: 10px auto 80px; /* Ajuste de margen inferior para evitar superposición con el footer */
+    width: 85%; /* Ajusta el ancho para que ocupe el 90% del contenedor padre */
+    background-color:#edf2f4 ;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(211, 211, 211, 0.822);
+    color: black
+}
+
+
+#inicio a {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em; /* Ajusta el tamaño del texto */
+    color: #ffffff;
+    background-color: #636799; /* Color de fondo opcional */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    border-radius: 5px; /* Bordes redondeados del botón */
+    margin-top: 10px; /* Espacio superior */
+    text-align: center;
+}
+
+#inicio a:hover {
+    background-color: #7d82c5; /* Color de fondo al pasar el cursor */
+}
+
+/* Estilos para la imagen dentro de la sección de inicio */
+#inicio img {
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
+#inicio h1 {
+    font-size: 2.8em; /* Ajusta el tamaño del encabezado */
+    text-align: center; 
+    margin: 0 auto; /* Asegura que el margen se ajuste automáticamente para centrar el bloque */
+}
+
+
+#inicio p {
+    font-size: 1.3em; /* Ajusta el tamaño del texto del párrafo */
+}
+
+#inicio ul {
+    list-style-type: disc !important; /* Fuerza el uso de puntos para las listas */
+    padding-left: 20px !important; /* Fuerza el espacio a la izquierda para la lista */
+    margin: 10px 0 !important; /* Fuerza el espacio arriba y abajo de la lista */
+}
+
+#inicio li {
+    font-size: 1.3em !important; /* Tamaño de fuente para los elementos de la lista */
+    margin-bottom: 10px !important; /* Espacio entre elementos de la lista */
+}
+
+
+
+
+
+
+#programas ul {
+    list-style-type: disc; /* Usa puntos para las listas */
+    padding-left: 20px; /* Espacio a la izquierda para la lista */
+    margin: 10px 0; /* Espacio arriba y abajo de la lista */
+}
+    #programas li {
+    font-size:1.3em ;
+    margin-bottom: 10px; /* Espacio entre elementos de la lista */
+}
+#contactanos p {
+    font-size: 1.3em; /* Ajusta el tamaño del texto en la sección Contáctanos */
+}
+#contactanos h2,
+#contactanos h3 {
+    text-align: center; /* Centra el texto horizontalmente */
+    margin: 10px 0; /* Añade margen superior e inferior */
+    font-size: 1.6em;
+}
+
+
+#programas p {
+    font-size: 1.3em; /* Ajusta el tamaño del texto en la sección Programas */
+}
+
+#oportunidades img {
+    width: 60%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    
+}
+
+#oportunidades p {
+    font-size: 1.3em; /* Ajusta el tamaño del texto en la sección Oportunidades */
+}
+#oportunidades ul {
+    list-style-type: disc; /* Usa puntos para las listas */
+    padding-left: 20px; /* Espacio a la izquierda para la lista */
+    margin: 10px 0; /* Espacio arriba y abajo de la lista */
+    list-style-position: inside; /* Alinea los puntos de la lista con el contenido */
+
+}
+    #oportunidades li {
+    font-size:1.3em ;
+    margin-bottom: 10px; /* Espacio entre elementos de la lista */
+}
+
+#testimonios p {
+    font-size: 1.3em; /* Ajusta el tamaño del texto en la sección Testimonios */
+}
+
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #222222; /* Gris más oscuro para el pie de página */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    z-index: 100; /* Para asegurarse de que el footer esté siempre por encima del contenido */
+}
+
+.social-icon {
+    display: inline-block; /* Mantiene los iconos en línea */
+    margin: 10px; /* Añade espacio alrededor de cada icono */
+    vertical-align: middle; /* Alinea los iconos verticalmente al medio */
+}
+
+.facebook-icon {
+    width: 70px; /* Ancho específico para el icono de Facebook */
+    height: 70px; /* Altura específica para el icono de Facebook */
+    border-radius: 10%;
+    
+}
+
+.youtube-icon {
+    width: 70px; /* Ancho específico para el icono de YouTube */
+    height: 60px; /* Altura específica para el icono de YouTube */
+    border-radius: 7px;
+}
+
+.instagram-icon {
+    width: 70px; /* Ancho específico para el icono de IG */
+    height: 60px; /* Altura específica para el icono de IG */
+    border-radius: 7px;
+}
+
+
+/* Efecto de hover para los iconos */
+.social-icon:hover {
+    transform: scale(1.1); /* Aumenta ligeramente el tamaño al pasar el cursor */
+}
+
+/* Estilos para el enlace de correo */
+.contact-link {
+    color: #ffffff;
+    text-decoration: none; /* Quita el subrayado del enlace */
+    margin: 0 10px; /* Espaciado horizontal */
+    font-weight: bold; /* Hace que el texto sea más grueso */
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navbar li a {
+        padding: 10px;
+        font-size: 0.9em;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    header .subtitulo {
+        font-size: 1em;
+    }
+}

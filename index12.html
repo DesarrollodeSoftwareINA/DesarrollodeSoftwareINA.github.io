@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>National Institute of Apopa</title>
+    <link rel="stylesheet" href="stylesss.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="header-buttons">
+        <a href="index.html" class="language-button">Spanish</a>
+        <a href="index12.html" class="language-button">English</a>
+    </div>
+    <!-- Main Header -->
+    <header>
+        <div class="header-menu">
+            <!-- Navigation Bar -->
+            <nav>
+                <ul class="navbar">
+                    <li><a href="#" onclick="showSection('inicio')">Home</a></li>
+                    <li><a href="#" onclick="showSection('programas')">Programs</a></li>
+                    <li><a href="#" onclick="showSection('testimonios')">Testimonials</a></li>
+                    <li><a href="#" onclick="showSection('oportunidades')">Career Opportunities</a></li>
+                    <li><a href="#" onclick="showSection('contactanos')">History</a></li>
+                </ul>
+            </nav>
+        </div>
+    
+        <div class="header-content">
+            <!-- Main Header -->
+            <h1> Instituto Nacional de Apopa</h1>
+            <p class="subtitulo">"Discover Your Future in Software Development"</p>
+        </div>
+    </header>
+    <!-- Page Content -->
+    <section id="inicio" class="content-section visible">
+        <h2>Why Should You Choose Software Development?</h2>
+        <p>If you want a career with a future, exciting challenges, and a real impact on the world, choose software development. Studying development puts you at the center of technological innovation and opens up the most promising opportunities in today's job market. You will be able to create solutions that improve people's lives, from applications and platforms to revolutionary digital tools. Also, you will have skills that companies highly value, ensuring constant and stable growth. Choose advancement and start building the future today!</p>
+        <img src="imagenmain.jpeg" alt="Image Description" style="max-width: 100%; height: auto; border-radius: 8px;">
+        <h2>Technical Skills You Will Develop in Software Development:</h2>
+        <ul>
+            <li>Analyze client requirements to develop systems</li>
+            <li>Develop programming logic</li>
+            <li>Design IT solutions and their components using Unified Modeling Language (UML)</li>
+            <li>Manage relational databases using DBMS such as Workbench, phpMyAdmin, PostgreSQL, HeidiSQL, SQL Server Express</li>
+            <li>Develop web applications under client-server architecture using the most in-demand programming languages in the market, such as Python, Java, C#, and frameworks like Angular, React through JavaScript or TypeScript</li>
+            <li>Design and configure a virtual network and its devices using Packet Tracer, applying the most known network topologies</li>
+            <li>Create user manuals using quality standards according to ISO and ITIL standards</li>
+            <li>Implement good software development practices</li>
+            <li>Competence in emerging technologies (artificial intelligence, virtual reality design and manipulation, 3D printing, video mapping)</li>
+        </ul>
+
+        <style>
+            .video-thumbnail-container {
+                max-width: 100%;
+                text-align: center;
+                margin: 20px 0;
+            }
+            .video-thumbnail {
+                max-width: 70%;
+                cursor: pointer; /* Mantén el cursor como puntero para indicar que es clicable */
+                border: 2px solid #ddd; /* Opcional: agrega un borde alrededor de la miniatura */
+                border-radius: 8px; /* Opcional: bordes redondeados */
+                background-color: transparent; /* Asegura que el fondo sea transparente */
+                transition: opacity 0.3s ease;
+            }
+            .video-thumbnail:hover {
+                opacity: 0.8; /* Cambia la opacidad al pasar el ratón */
+            }
+            .info-container {
+                text-align: center;
+                margin: 20px 0;
+            }
+            .info-container h2 {
+                margin-bottom: 10px;
+            }
+            .info-container p {
+                margin: 5px 0;
+            }
+            .info-container a {
+                display: block;
+                margin: 5px 0;
+                color: #007BFF; /* Color del enlace */
+                text-decoration: none;
+            }
+            .info-container a:hover {
+                text-decoration: underline; /* Subrayado al pasar el ratón */
+            }
+        </style>
+    </head>
+    <body>
+        <style>
+            .centrado {
+                text-align: center;
+            }
+        </style>
+    
+        <div style="text-align: center;">
+            <h2>Explora el futuro del desarrollo tecnológico a través de nuestro cortometraje: descubre por qué el bachillerato en desarrollo de software es tu mejor opción para construir un mundo digital innovador</h2>
+        </div>
+        
+          <div class="centrado">
+            <div style="text-align: center;">
+                <video style="max-width: 100%; height: auto;" controls>
+                    <source src="Corto de software prueba.mp4" type="video/mp4">
+                    Tu navegador no soporta el video.
+                </video>
+            </div>
+
+        <h2 style="text-align: center;">For More Information</h2>
+        <p>Download the pre-registration form:</p>
+        <a href="FichaPreinscripción2025Final.pdf" download="FichaPreinscripción2025Final">Download it now!</a>
+        <p>Download the 2025 admission exam syllabus:</p>
+        <a href="Temario para el examen admision 2025.pdf" download="Temario para el examen admision 2025.pdf">Download it now!</a>
+        <p>Download the 2025 prospectus:</p>
+        <a href="Prospecto2025.pdf" download="Prospecto2025">Download it now!</a>
+        <div class="centrado">
+            <h2>Do you want to know more about this world? Watch the video that our students have prepared</h2>
+        </div>
+        <!-- Contenedor para el video -->
+        <div class="video-thumbnail-container">
+            <a href="https://www.facebook.com/watch/?v=1028165912311679" target="_blank">
+                <img src="video.jpeg" alt="Miniatura del Video" class="video-thumbnail">
+            </a>
+        </div>
+    </section>
+
+    <section id="programas" class="content-section hidden">
+        <h2>Discover Our Programs!</h2>
+        <div style="background-color:#636799; padding: 10px; border-radius: 8px; text-align: center;">
+            <h2 style="color: white;">First Year</h2>
+        </div>
+        <p>In the first year of Software Development, you will learn a variety of topics:</p>
+        <ul>
+            <li>Algorithm creation using programming logic</li>
+            <li>Identification of requirements to design IT systems</li>
+            <li>Design of multimedia applications</li>
+            <li>Creation of quality control system manuals implementing ISO standards</li>
+            <li>Web development</li>
+            <li>Conversations in English about IT systems and web development</li>
+        </ul>
+        <div style="text-align: center;">
+            <img src="software 1.jpeg" alt="Descripción de la imagen" style="max-width: 50%; height: auto; border-radius: 5px;">
+        </div>
+        
+        <div style="background-color:#636799; padding: 10px; border-radius: 8px; text-align: center;">
+            <h2 style="color: white;">Second Year</h2>
+        </div>
+        <p>During the second year of Software Development, the following topics will be covered:</p>
+        <ul>
+            <li>IT system design</li>
+            <li>Web architecture design</li>
+            <li>Database component programming</li>
+            <li>Object-Oriented Programming (OOP)</li>
+            <li>LAN network design and installation</li>
+        </ul>
+        <div style="text-align: center;">
+            <img src="software.png" alt="Descripción de la imagen" style="max-width: 50%; height: auto; border-radius: 5px;">
+        </div>
+        
+        
+        <div style="background-color:#636799; padding: 10px; border-radius: 8px; text-align: center;">
+            <h2 style="color: white;">Third Year</h2>
+        </div>
+        <p>During the third year of Software Development, the following topics will be explored:</p>
+        <ul>
+            <li>Development of multimedia software applications to solve various problems</li>
+            <li>Maintenance and assurance of IT system operation</li>
+            <li>Database administration</li>
+            <li>Preparation of IT system documentation</li>
+            <li>Development of components for mobile devices</li>
+        </ul>
+        <div style="text-align: center;">
+            <img src="software 3.jpg" alt="Descripción de la imagen" style="max-width: 50%; height: auto; border-radius: 5px;">
+        </div>
+    </section>
+
+    <section id="testimonios" class="content-section hidden">
+        <p>Read and discover the testimonials of our students!</p>
+        <style>
+            .miembros {
+                display: flex;
+                border: 1px solid #ccc;
+                padding: 20px;
+            }
+            .imagen {
+                flex: 1;
+            }
+            .informacion {
+                flex: 1;
+                padding-left: 20px;
+            }
+</style>
+<div class="miembros">
+    <div style="text-align: center;">
+        <img src="dylan.jpeg" alt="Mi imagen" class="con-marco" width="200" height="200"; >
+    </div>
+    <div class="informacion">
+    <a style="text-align: left;">
+        <h2>Dylan Alexis Montano Hernandez</h2>
+        <p><i>"The National Institute of Apopa is a great educational center which offers us various good options. But for my testimony, Software Development has been one of the best options since it has allowed me to see the incredible logistics of life, this career is for creative people since the only limit is the sky."</i> </p>
+    </a>
+    
+    </div>
+</div>
+
+<style>
+    .miembros {
+        display: flex;
+        border: 0px solid #ccc;
+        padding: 20px;
+    }
+    .imagen {
+        flex: 1;
+        border-radius: 3px;
+    }
+    .informacion {
+        flex: 1;
+        padding-left: 20px;
+    }
+</style>
+<div class="miembros">
+    <div style="text-align: center;">
+        <img src="Ronny.jpeg" alt="Mi imagen" class="con-marco" width="200" height="200" border-radius="3%">
+    </div>
+    <div class="informacion">
+    <a style="text-align: left;">
+        <h2><i>Ronny Joshua Mejia Alvarado</i></h2>
+        <p><i>"The National Institute of Apopa has formed a great personal development in me since it has allowed me to develop in what attracts me in an effective way, allowing at the same time to grow my social values ​​and fulfill my role in this life for the good development of this country."</i> </p>
+    </a>
+    
+    </div>
+</div>
+
+<style>
+    .miembros {
+        display: flex;
+        border: 0px solid #ccc;
+        padding: 20px;
+    }
+    .imagen {
+        flex: 1;
+        border-radius: 3px;
+    }
+    .informacion {
+        flex: 1;
+        padding-left: 20px;
+    }
+</style>
+<div class="miembros">
+    <div style="text-align: center;">
+        <img src="isis.jpeg" alt="Mi imagen" class="con-marco" width="200" height="200" border-radius="3%">
+    </div>
+    <div class="informacion">
+    <a style="text-align: left;">
+        <h2><i>Isis Yasmín Ardón Estrada</i></h2>
+        <p><i>"Software development has allowed me to develop in different areas, in addition to acquiring and improving my skills, giving me a secure future."</i> </p>
+    </a>
+    
+    </div>
+</div>
+
+<style>
+    .miembros {
+        display: flex;
+        border: 0px solid #ccc;
+        padding: 20px;
+    }
+    .imagen {
+        flex: 1;
+        border-radius: 3px;
+    }
+    .informacion {
+        flex: 1;
+        padding-left: 20px;
+    }
+</style>
+<div class="miembros">
+    <div style="text-align: center;">
+        <img src="kevin.jpeg" alt="Mi imagen" class="con-marco" width="200" height="200" border-radius="3%">
+    </div>
+    <div class="informacion">
+    <a style="text-align: left;">
+        <h2><i>Kevin Alberto Aguilar Najarro</i></h2>
+        <p><i>"In my opinion software development has transformed the way we live and work. The ability we have to create personalized and scalable solutions has allowed several young people to innovate processes and offer experiences to students. Thanks to software development, we have seen impressive advances in sectors such as health, education and communication, where solutions have not only improved efficiency, but have also opened new opportunities for young people allowing growth and progress as well as development. Software is not only a technical discipline, but a driving force that is shaping the future of young people"</i> </p>
+    </a>
+    
+    </div>
+</div>
+<style>
+    .miembros {
+        display: flex;
+        border: 0px solid #ccc;
+        padding: 20px;
+    }
+    .imagen {
+        flex: 1;
+        border-radius: 3px;
+    }
+    .informacion {
+        flex: 1;
+        padding-left: 20px;
+    }
+</style>
+<div class="miembros">
+    <div style="text-align: center;">
+        <img src="douglas.jpeg" alt="Mi imagen" class="con-marco" width="200" height="200" border-radius="3%">
+    </div>
+    <div class="informacion">
+    <a style="text-align: left;">
+        <h2><i>Douglas de Jesús Salazar Colocho </i></h2>
+        <p><i>"The Software Development option offered by the National Institute of Apopa is in my experience one of the most complete since it allows us to train as true professionals thanks to the teachings of multiple trained and specialized professors in the area who put their all into it. effort to teach us everything necessary for our future as professionals"</i> </p>
+    </a>
+    
+    </div>
+</div>
+
+<style>
+    .miembros {
+        display: flex;
+        border: 0px solid #ccc;
+        padding: 20px;
+    }
+    .imagen {
+        flex: 1;
+        border-radius: 3px;
+    }
+    .informacion {
+        flex: 1;
+        padding-left: 20px;
+    }
+</style>
+<div class="miembros">
+    <div style="text-align: center;">
+        <img src="cristian.jpeg" alt="Mi imagen" class="con-marco" width="200" height="200" border-radius="3%">
+    </div>
+    <div class="informacion">
+    <a style="text-align: left;">
+        <h2><i>Cristian Alexander Lopez Rivas</i></h2>
+        <p><i>"At the National Institute of Apopa, Software Development has allowed me to know and specialize in different areas and to know my capabilities and improve in other aspects such as my creativity and learn many things about computing that can help me advance in my career. development in life and getting a good job for the future"</i> </p>
+    </a>
+    
+    </div>
+</div>
+</section>
+
+    <section id="oportunidades" class="content-section hidden">
+        <h2>Career Opportunities</h2>
+        <h3>Explore a world of possibilities in software development. From support and training to web design and database management, your future is full of opportunities to grow and excel in a constantly evolving field. Get ready for success!</h3>
+        <ul>
+            <img src="prueba6.jpeg" alt="Image Description" style="max-width: 100%; height: auto; border-radius: 8px;">
+            <h3>Technical Competencies:</h3>
+            <li>Support for application maintenance</li>
+            <li>Training for software development</li>
+            <li>Testing and quality control of systems</li>
+            <li>Cloud Computing (Developing applications that run from the Web)</li>
+            <li>Development of web components</li>
+            <li>Tools for generating code for software solutions</li>
+            <li>Quality Assurance Technician</li>
+            <li>Developer of websites and web applications</li>
+            <li>Systems Designer</li>
+            <li>Database Designer and Administrator</li>
+            <li>LAN Network Installer and Configurator</li>
+            <li>IT Systems Operator</li>
+            <li>Systems Documenter</li>
+            <li>Sales of Software Solutions</li>
+        </ul>
+    </section>
+
+    <section id="contactanos" class="content-section hidden">
+        <div class="cuadro">
+            <h2>Our Institution</h2>
+            <p>The National Institute of Apopa (INA) was founded on February 7, 1981, initially operating in the Vicente Acosta School with a single first-year high school section and 44 students. Under the direction of Professor José Jerónimo Yánez and with the support of an administrative team, the institute began its educational work.</p>
+            <p>In 1984, it moved to its current location, and with the support of the community, additional classrooms were built. By 1988, it offered Academic, Commercial, and Health High Schools, serving 1000 students with 30 teachers.</p>
+            <p>Since then, the INA has constantly sought new opportunities for students to develop their skills, participate in artistic, sports, and cultural activities, obtaining recognition both nationally and internationally. Since 2015, it has offered a renewed curriculum, including Vocational Administrative Accounting Technical High Schools, Secretariat, Executive Assistance, Community Health, Clinical Laboratory, Technical Nurses, and Software Development.</p>
+        </div>
+        <div class="cuadro">
+            <h3>Mission</h3>
+            <p>We are a secondary education institution with over 40 years of experience, committed to forming quality graduates dedicated to society.</p>
+        </div>
+        <div class="cuadro">
+            <h3>Vision</h3>
+            <p>We are a secondary education institution that provides quality services, using appropriate technological resources for the training of well-rounded, competent individuals with an entrepreneurial vision, through the effective participation of different stakeholders and leaders in the educational process.</p>
+        </div>
+    </section>
+    
+
+<!-- Footer -->
+<footer>
+    <p class="footer-heading">Contact us through the following platforms</p>
+
+    <!-- Vinculación a Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <div class="social-container">
+        <!-- Instagram -->
+        <div class="social-item">
+            <a href="https://www.instagram.com/ina_apopa_oficial/" target="_blank">
+                <i class="bi bi-instagram"></i>
+            </a>
+            <p><strong>Instagram:</strong>@ina_apopa_oficial</p>
+        </div>
+        <!-- Facebook -->
+        <div class="social-item">
+            <a href="https://www.facebook.com/inadeapopa" target="_blank">
+                <i class="bi bi-facebook"></i>
+            </a>
+            <p><strong>Facebook:</strong>Instituto Nacional de Apopa</p>
+        </div>
+        <!-- TikTok -->
+        <div class="social-item">
+            <a href="https://www.tiktok.com/@inapopaoficial" target="_blank">
+                <i class="bi bi-tiktok"></i>
+            </a>
+            <p><strong>TikTok:</strong>@inapopaoficial</p>
+        </div>
+        <!-- WhatsApp -->
+        <div class="social-item">
+            <a href="https://wa.me/50369822266" target="_blank">
+                <i class="bi bi-whatsapp"></i>
+            </a>
+            <p><strong>WhatsApp:</strong>2216-2772</p>
+        </div>
+    </div>
+
+    <!-- Información adicional -->
+    <div class="footer-info">
+        <p>Address: Colonia Madre Tierra Calle "A"<br> Tel. 2216-2772</p>
+    </div>
+
+    <style>
+        /* Contenedor principal del footer */
+        footer {
+            background-color: #2a282898;
+            padding: 20px;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Título del footer */
+        .footer-heading {
+            font-size: 1.2rem;
+            color: #f9f6f6;
+            margin-bottom: 15px;
+        }
+
+        /* Contenedor social: organiza los ítems en fila con espacio entre ellos */
+        .social-container {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-bottom: 20px;
+            flex-wrap: wrap; /* Permite que los elementos se ajusten automáticamente en pantallas pequeñas */
+        }
+
+        /* Ítem social: estilo para cada ícono y texto */
+        .social-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            transition: transform 0.3s ease, opacity 0.3s ease;
+        }
+
+        /* Efecto hover: animación suave */
+        .social-item:hover {
+            transform: scale(1.15);
+            opacity: 0.8;
+        }
+
+        /* Íconos sociales */
+        .social-item i {
+            font-size: 2.5rem;
+            color: #c1b2b7;
+            margin-bottom: 8px;
+        }
+
+        /* Texto debajo del ícono */
+        .social-item p {
+            font-size: 1rem;
+            color: #f1eded;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Información adicional */
+        .footer-info {
+            margin-top: 20px;
+            font-size: 1rem;
+            color: #f1eded;
+        }
+
+        /* Media queries para dispositivos móviles */
+        @media (max-width: 768px) {
+            /* Título del footer en pantallas pequeñas */
+            .footer-heading {
+                font-size: 1rem;
+            }
+
+            /* Ajusta los íconos sociales */
+            .social-item i {
+                font-size: 2rem;
+            }
+
+            /* Ajusta el texto debajo de los íconos */
+            .social-item p {
+                font-size: 0.9rem;
+            }
+
+            /* Espaciado entre los ítems en pantallas más pequeñas */
+            .social-container {
+                gap: 20px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .social-item i {
+                font-size: 1.8rem;
+            }
+
+            .social-item p {
+                font-size: 0.8rem;
+            }
+        }
+    </style>
+</footer>
+
+<script src="scriptt.js" defer></script>  
+</body>
+</html>
