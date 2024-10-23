@@ -113,7 +113,7 @@ header .subtitulo {
 section {
     padding: 20px;
     margin: 10px auto 80px; /* Ajuste de margen inferior para evitar superposición con el footer */
-    width: 85%; /* Ajusta el ancho para que ocupe el 90% del contenedor padre */
+    width: 75%; /* Ajusta el ancho para que ocupe el 90% del contenedor padre */
     background-color:#edf2f4 ;
     border-radius: 8px;
     box-shadow: 0 0 15px rgba(211, 211, 211, 0.822);
@@ -285,21 +285,50 @@ footer {
 }
 
 /* Estilos responsivos */
+/* Barra de navegación */
+/* Estilos de la barra de navegación */
+.navbar {
+    list-style: none; /* Sin estilo de lista */
+    padding: 0;
+    margin: 20px 0; /* Margen para separar la barra del encabezado */
+    display: flex; /* Flexbox para alinear los elementos */
+    justify-content: center; /* Centrar los elementos */
+    gap: 15px; /* Espacio entre los elementos */
+    flex-wrap: wrap; /* Permitir que los elementos se ajusten a la siguiente línea */
+}
+
+.navbar li {
+    margin: 0;
+}
+
+.navbar li a {
+    color: rgba(255, 255, 255, 0.845);
+    text-decoration: none;
+    padding: 14px 20px; /* Espaciado alrededor del texto */
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    min-width: 100px; /* Asegura un ancho mínimo para los enlaces */
+}
+
+.navbar li a:hover {
+    background-color: #222222; /* Tono gris más oscuro al pasar el cursor */
+}
+
+/* Media Query para pantallas pequeñas */
 @media (max-width: 768px) {
     .navbar {
-        flex-direction: column;
+        flex-direction: column; /* Cambiar a columna en pantallas pequeñas */
+        align-items: center; /* Centrar los elementos */
+    }
+
+    .navbar li {
+        width: 100%; /* Hacer que los elementos ocupen el 100% del ancho */
+        text-align: center; /* Alinear el texto al centro */
     }
 
     .navbar li a {
-        padding: 10px;
-        font-size: 0.9em;
-    }
-
-    header h1 {
-        font-size: 2em;
-    }
-
-    header .subtitulo {
-        font-size: 1em;
+        padding: 10px; /* Ajustar el espaciado para pantallas pequeñas */
+        font-size: 0.9em; /* Ajustar el tamaño de la fuente */
     }
 }
